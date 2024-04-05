@@ -7,7 +7,7 @@ El objetivo de esta prueba es evaluar tus habilidades en el desarrollo de aplica
 
 - **Back-End**:
   - Lenguaje: JavaScript o TypeScript.
-  - Base de Datos: Utilizar una base de datos relacional.
+  - Base de Datos: Utilizar una base de datos postgres.
   - Autenticación: Implementar JWT para la autenticación.
   - Protección de Rutas: Todas las rutas deben estar protegidas, excepto la de login.
   - Hashing de Contraseñas: Las contraseñas de los usuarios deben ser hasheadas antes de almacenarse.
@@ -15,6 +15,8 @@ El objetivo de esta prueba es evaluar tus habilidades en el desarrollo de aplica
 - **Front-End**:
   - Tecnología: React.
   - Funcionalidades:
+    - **Página de Inicio de Sesión**: Implementar una página para que los usuarios puedan iniciar sesión.
+    - **Manejo de Estado**: Utilizar Context, Redux, o Zustand para gestionar el estado de autenticación de la aplicación.
     - CRUD de usuarios.
     - Formulario para crear usuarios.
     - Tabla para mostrar usuarios, con paginación y capacidad para filtrar por roles y por coincidencia en nombre y correo.
@@ -50,7 +52,7 @@ El objetivo de esta prueba es evaluar tus habilidades en el desarrollo de aplica
 
 ## Entrega
 
-- El proyecto debe ser subido a un repositorio Git (p.ej., GitHub, GitLab).
+- El proyecto debe ser subido a un repositorio GitHub.
 - Incluir instrucciones detalladas para la instalación y ejecución de la aplicación en el archivo `README.md`.
 - Asegurarse de que todas las dependencias necesarias estén claramente documentadas.
 
